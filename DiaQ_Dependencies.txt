@@ -1,0 +1,12 @@
+Dependencies: 
+                json
+                klayout
+                numpy
+                shapely
+                gdspy
+                matplotlib
+                yaml
+                sys
+                os
+
+All are installable by the usual "pip install" command. The packages sys and os should be in the standard repository.

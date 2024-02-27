@@ -1,0 +1,44 @@
+gate-names:
+  gate_1: "P1"
+  gate_2: "P2"
+  gate_3: "P3"
+  gate_4: "P4"
+  gate_5: "P5"
+  gate_6: "P6"
+  gate_7: "S1"
+  gate_8: "S2"
+  gate_9: "SS1"
+  gate_10: "SS2"
+  gate_11: "B1"
+  gate_12: "B2"
+  gate_13: "B3"
+  gate_14: "B4"
+  gate_15: "B5"
+  gate_16: "B6"
+  gate_17: "B7"
+  gate_18: "SP1"
+  gate_19: "SP2"
+  gate_20: "SP1PB"
+  gate_21: "SP2PB"
+  ohmic_1: "ORB"
+  ohmic_2: "ORT"
+  ohmic_3: "OLB"
+  ohmic_4: "OLT"
+  gate_26: "SP1BT"
+  gate_27: "SP2BT"
+  gate_28: "SP1BB"
+  gate_29: "SP2BB"
+
+# The gate names do not matter, except for the ohmics. They must be named in the same fashion as above, otherwise they will not be read as ohmics.
+
+diagnostics-values:
+  max-distance: 0.1
+
+gds-coordinates:
+  x1: 4199.5
+  y1: 4199.5
+  x2: 4200.8
+  y2: 4200.4
+
+gds-file:
+  name: "AXL MkVI QT828"
